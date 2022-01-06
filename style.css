@@ -4,15 +4,20 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    text-align: center;
+    font-size: 30px;
+}
 .yellowgreen-color{
     color: rgb(204, 45, 17);
 }
-section{
+.flexiable-continer{
     display: flex;
 }
 .half-width{
     width: 40%;
     padding-left: 5%;
+    padding-top: 5%;
 }
 .half-width img{
     width: 50%;
@@ -29,4 +34,24 @@ section{
     font-weight: 700;
     padding: 3px 40px;
     border-radius: 10px;
+}
+.illustrator{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10%;
+}
+.illustrator img{
+    width: 40%;
+}
+.center{
+    text-align: center;
+    background-color: black;
+    
+}
+.for-seen{
+    color: white;
 }
