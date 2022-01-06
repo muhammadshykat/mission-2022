@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.yellowgreen-color{
+    color: rgb(204, 45, 17);
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 50%;
+}
+.border{
+    border-left: 10px solid;
+    border-image: linear-gradient(#c44716, #eed813) 30;
+    border-image-slice: 1;
+}
+.link-button{
+    text-decoration: none;
+    background-color: turquoise;
+    color: white;
+    font-weight: 700;
+    padding: 3px 40px;
+    border-radius: 10px;
+}
